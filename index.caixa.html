@@ -7,21 +7,56 @@
 
     <style>
         #topBox{
-        width: 250px;
-        height: 250px;
-        border: 10px solid rgb(172, 172, 247)
+        /*width: 250px;
+        height: 250px;*/
+        border: 10px solid rgb(172, 172, 247);
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
         }
         #BottomBox {
-        width: 270px;
+        width: 250px;
         height: 250px;
         background: rgb(201, 201, 253);
+        
+        }
+        .Circle{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: rgb(88, 88, 175);
+        }
+        .Alinhar{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        }
+        .btn-style{
+        width: 90px;
+        height: 25px;
+        background-color: rgb(72, 72, 150);;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        color: white
         }
     </style>
 </head>
 <body>
     
     <div id="topBox">
-        <div></div>
+        <div class="Circle"></div>
+        <div>
+            <h1>Roberta Martins</h1>
+            <p>Student, Carpenter, Brazilian</p>
+            <div class="alinhar"></div>
+        <div class="btn-style"><p>one</p></div>
+        <div class="btn-style"><p>two</p></div>
+        </div>
         <div></div>
     </div>
     <div id="BottomBox">
